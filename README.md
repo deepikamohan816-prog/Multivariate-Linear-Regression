@@ -38,7 +38,7 @@ predict and display the CO2 emission for Weight = 3300 and Volume = 1300.
 
 
 ## Output:
-<img width="741" height="88" alt="Screenshot 2026-11-23 110204" src="https://github.com/user-attachments/assets/5a332076-b92e-4610-80f7-038fa4bd346c" />
+<img width="358" height="43" alt="Screenshot 2026-11-23 110357" src="https://github.com/user-attachments/assets/e2250ee1-8a03-4b09-863b-1ef21380d6de" />
 
 <img width="741" height="88" alt="Screenshot 2026-11-23 110204" src="https://github.com/user-attachments/assets/8fa9b30a-dc4d-4254-a31a-b07b571ee9e0" />
 
