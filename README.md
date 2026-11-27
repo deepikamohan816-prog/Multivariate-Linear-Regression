@@ -6,23 +6,22 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1
-Import Pandas and Linear Regression from Scikit-learn.
+Load the Boston housing dataset and define the feature matrix(X) and response vector(y)
 <br>
 
 ### Step2
-Read the crsemission.csv dataset and select weight and volume as independent variable and CO2 as the dependent variable.
-<br>
+Split the dataset into training and testing sets (60% train, 40% test).
 
 ### Step3
-Create and train the Mutlivariate Linear Regression model.
+Create a linear regression object and train the model using the training set.
 <br>
 
 ### Step4
-Display the regression coefficients and intercept
+Print the regression coefficients and the variance score (R²) on the test set.
 <br>
 
 ### Step5
-predict and display the CO2 emission for Weight = 3300 and Volume = 1300.
+Plot the residual errors for the training and test data, then display the plot.
 <br>
 
 ## Program:
@@ -33,19 +32,23 @@ predict and display the CO2 emission for Weight = 3300 and Volume = 1300.
 
 
 
+
 ```
-<img width="1013" height="620" alt="Screenshot 2026-11-23 105127" src="https://github.com/user-attachments/assets/9faa26e1-9583-4bfc-9429-0b78138c9005" />
+<img width="706" height="749" alt="Screenshot 2026-11-24 085246" src="https://github.com/user-attachments/assets/684e1370-ea90-419a-83f5-466a492cf590" />
+
+<img width="710" height="449" alt="Screenshot 2026-11-24 085305" src="https://github.com/user-attachments/assets/8d890e34-80a6-4fe1-a0d4-bda96c58f53a" />
+
 
 
 ## Output:
-<img width="358" height="43" alt="Screenshot 2026-11-23 110357" src="https://github.com/user-attachments/assets/e2250ee1-8a03-4b09-863b-1ef21380d6de" />
 
-<img width="741" height="88" alt="Screenshot 2026-11-23 110204" src="https://github.com/user-attachments/assets/8fa9b30a-dc4d-4254-a31a-b07b571ee9e0" />
 
 
 ### Insert your output
 
 <br>
+<img width="982" height="661" alt="Screenshot 2026-11-24 085323" src="https://github.com/user-attachments/assets/9860053e-79b9-42a2-9c10-64dd7ed6cfac" />
+
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
